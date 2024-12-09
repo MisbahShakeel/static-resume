@@ -2,8 +2,6 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <>
-    // static resume
     <div className="bg-gray-100 p-8 font-sans">
       <div className="max-w-5xl mx-auto bg-white shadow-lg rounded-lg overflow-hidden">
         <div className="grid grid-cols-1 md:grid-cols-3">
@@ -142,6 +140,5 @@ export default function Home() {
         </div>
       </div>
     </div>
-    </>
   );
 }
