@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 import { FaEnvelope, FaHome, FaPhone } from "react-icons/fa";
 
 
@@ -15,7 +15,7 @@ export default function Home() {
       <div className="flex">
         <div className="w-[200px] h-[200px] border-[4.5px] border-white rounded-full relative bottom-[95px] left-10">
         <div className="w-[200px] h-[200px] border-[5px] border-blue-950 rounded-full overflow-hidden absolute -left-[0.5px] top-[1px]">
-          <Image src="/img1.png" width={200} height={200} alt="" className="object-cover"/>
+          <img src="/img1.png" width={200} height={200} alt="" className="object-cover"/>
         </div>
         </div>
         <div className="relative bottom-20 left-[40px]">
