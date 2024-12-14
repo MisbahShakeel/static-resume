@@ -1,4 +1,4 @@
-
+import Image from "next/image";
 import { FaEnvelope, FaHome, FaPhone } from "react-icons/fa";
 
 
@@ -15,7 +15,7 @@ export default function Home() {
       <div className="flex">
         <div className="w-[200px] h-[200px] border-[4.5px] border-white rounded-full relative bottom-[95px] left-10">
         <div className="w-[200px] h-[200px] border-[5px] border-blue-950 rounded-full overflow-hidden absolute -left-[0.5px] top-[1px]">
-          <img src="/img1.png" width={200} height={200} alt="" className="object-cover"/>
+          <Image src="/img1.png" width={200} height={200} alt="img" className="object-cover"></Image>
         </div>
         </div>
         <div className="relative bottom-20 left-[40px]">
@@ -30,7 +30,7 @@ export default function Home() {
           <section>
             <div className="relative bottom-20 text-blue-950">
               <h2 className="ml-24 font-serif font-bpld text-xl">About Me</h2>
-              <p className="w-[250px] h-[100px] leading-6 font-sans ml-11">Hi! I'm a <span className="text-orange-950 font-mono size-4 font-bold"> Web Developer</span> I completed my web development from <span>SMIT</span>
+              <p className="w-[250px] h-[100px] leading-6 font-sans ml-11">Hi! I am a <span className="text-orange-950 font-mono size-4 font-bold"> Web Developer</span> I completed my web development from <span>SMIT</span>
               . I have good experience in HTML, CSS, JavaScript, React and TypeScript</p>
            <div className="flex mt-10">
             <div>
@@ -85,8 +85,8 @@ export default function Home() {
             <div className="ml-10 mt-4">
             <h4 className="font-serif font-bold text-2xl">Web Developer</h4>
             <h4 className="font-semibold">2022-2023</h4>
-            <p className="text-sm w-[280px]">I completed my Web Development From "Saylani Mass IT Tranning.
-              I have 1 year of experience as "Front-End-Developer"</p>
+            <p className="text-sm w-[280px]">I completed my Web Development From Saylani Mass IT Tranning.
+              I have 1 year of experience as Front-End-Developer</p>
             </div>
             </div>
             </div>
@@ -112,28 +112,28 @@ export default function Home() {
               <h2 className="text-white font-bold">Skills</h2>
               </div>
             <div className="flex flex-row mt-8 gap-5">
-              <h4 className="">HTML</h4>
+              <h4>HTML</h4>
               <div className="bg-gray-200 w-full h-4 rounded-md overflow-hidden mt-[2px] ml-7">
                 <div className="bg-blue-950 h-4 w-[85%]"></div>
               </div>
               <h4>85%</h4>
             </div>
             <div className="flex flex-row mt-8 gap-5">
-              <h4 className="">CSS</h4>
+              <h4>CSS</h4>
               <div className="bg-gray-200 w-full h-4 rounded-md overflow-hidden mt-[2px] ml-10">
                 <div className="bg-blue-950 h-4 w-[75%]"></div>
               </div>
               <h4>75%</h4>
             </div>
             <div className="flex flex-row mt-8 gap-5">
-              <h4 className="">JavaScript</h4>
+              <h4>JavaScript</h4>
               <div className="bg-gray-200 w-full h-4 rounded-md overflow-hidden mt-[2px]">
                 <div className="bg-blue-950 h-4 w-[60%]"></div>
               </div>
               <h4>60%</h4>
             </div>
             <div className="flex flex-row mt-8 gap-5">
-              <h4 className="">React</h4>
+              <h4>React</h4>
               <div className="bg-gray-200 w-full h-4 rounded-md overflow-hidden mt-[2px] ml-10">
                 <div className="bg-blue-950 h-4 w-[70%]"></div>
               </div>
