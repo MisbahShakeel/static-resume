@@ -6,7 +6,7 @@ import { FaEnvelope, FaHome, FaPhone } from "react-icons/fa";
 export default function Home() {
  
   return (
-    <>
+    <div>
     <form className="px-[20%] py-12">
       <div>
         <div className="w-[180px] h-[180px] bg-blue-950 border rounded-md">
@@ -143,6 +143,6 @@ export default function Home() {
       </div>
       
     </form>
-    </>
+    </div>
   );
 }
