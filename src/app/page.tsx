@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { FaEnvelope, FaHome, FaPhone } from "react-icons/fa";
+import { FaEnvelope, FaGithub,  FaPhone } from "react-icons/fa";
 
 
 
@@ -30,21 +30,21 @@ export default function Home() {
           <section>
             <div className="relative bottom-20 text-blue-950">
               <h2 className="ml-24 font-serif font-bpld text-xl">About Me</h2>
-              <p className="w-[250px] h-[100px] leading-6 font-sans ml-11">Hi! I am a <span className="text-orange-950 font-mono size-4 font-bold"> Web Developer</span> I completed my web development from <span>SMIT</span>
-              . I have good experience in HTML, CSS, JavaScript, React and TypeScript</p>
-           <div className="flex mt-10">
+              <p className="w-[250px] h-[100px] leading-6 font-sans ml-11">Hi! I am a <span className="text-orange-950 font-serif size-4 font-bold uppercase"> Web Developer</span> I completed my web development from <span>SMIT</span>
+              . I have good experience in HTML, CSS, JavaScript, React and TypeScript and NextJS. I am a student of <span className="font-bold uppercase">Govrnor Initiative</span></p>
+           <div className="flex mt-24 ml-4">
             <div>
-              <ul className="flex flex-col gap-2">
+              <ul className="flex flex-col gap-4">
               <li className="h-8 w-8 bg-blue-950 rounded-full"><FaPhone className="text-white mt-2 ml-2"/></li>
               <li className="h-8 w-8 bg-blue-950 rounded-full"><FaEnvelope className="text-white mt-2 ml-2"/></li>
-              <li className="h-8 w-8 bg-blue-950 rounded-full"><FaHome className="text-white mt-2 ml-2"/></li>
+              <li className="h-8 w-8 bg-blue-950 rounded-full"><FaGithub className="text-white mt-2 ml-2"/></li>
               </ul>
             </div>
             <div>
-            <ul className="flex flex-col gap-4 ml-4 mt-1">
-              <li>+123 456 7890</li>
+            <ul className="flex flex-col gap-6 ml-4 mt-1">
+              <li>+92 318-2312715</li>
               <li>misbahshakeel984@gmail.com</li>
-              <li>St-4 Karachi, Pkistan</li>
+              <li><a href="https://github.com/MisbahShakeel">github.com/MisbahShakeel</a></li>
             </ul>
             </div>
            </div>
@@ -58,7 +58,6 @@ export default function Home() {
             <ul className="mt-6 list-disc ml-10">
               <li>English</li>
               <li>Urdu</li>
-              <li>Arabic (basic) </li>
             </ul>
           </div>
            {/* Expertise  */}
@@ -70,7 +69,8 @@ export default function Home() {
               <li>HML & CSS</li>
               <li>JavaScript</li>
               <li>TypeScript </li>
-              <li>React</li>
+              <li>React.JS</li>
+              <li>Next.JS</li>
             </ul>
           </div>
         </div>
@@ -105,39 +105,51 @@ export default function Home() {
             <p className="font-semibold">Web and Mobile App Development</p>
             <p className="text-sm">2022-2023</p>
             </div>
+            <div className="ml-10 mt-4">
+            <h4 className="font-serif font-bold text-2xl">GIAIC</h4>
+            <p className="font-semibold">Web 3.0, Metaverse and GAI</p>
+            <p className="text-sm">2024-2026</p>
+            </div>
             </div>
             {/* Skills */}
-            <div className="relative top-[384px] right-[530px] text-blue-950">
+            <div className="relative top-[484px] right-[530px] text-blue-950">
             <div className="flex flex-col w-[300px] h-[40px] bg-blue-950 text-center justify-center">
               <h2 className="text-white font-bold">Skills</h2>
               </div>
-            <div className="flex flex-row mt-8 gap-5">
+            <div className="flex flex-row mt-8 gap-6">
               <h4>HTML</h4>
               <div className="bg-gray-200 w-full h-4 rounded-md overflow-hidden mt-[2px] ml-7">
                 <div className="bg-blue-950 h-4 w-[85%]"></div>
               </div>
               <h4>85%</h4>
             </div>
-            <div className="flex flex-row mt-8 gap-5">
+            <div className="flex flex-row mt-8 gap-6">
               <h4>CSS</h4>
               <div className="bg-gray-200 w-full h-4 rounded-md overflow-hidden mt-[2px] ml-10">
                 <div className="bg-blue-950 h-4 w-[75%]"></div>
               </div>
               <h4>75%</h4>
             </div>
-            <div className="flex flex-row mt-8 gap-5">
+            <div className="flex flex-row mt-8 gap-6">
               <h4>JavaScript</h4>
               <div className="bg-gray-200 w-full h-4 rounded-md overflow-hidden mt-[2px]">
                 <div className="bg-blue-950 h-4 w-[60%]"></div>
               </div>
               <h4>60%</h4>
             </div>
-            <div className="flex flex-row mt-8 gap-5">
+            <div className="flex flex-row mt-8 gap-4">
               <h4>React</h4>
               <div className="bg-gray-200 w-full h-4 rounded-md overflow-hidden mt-[2px] ml-10">
                 <div className="bg-blue-950 h-4 w-[70%]"></div>
               </div>
               <h4>70%</h4>
+            </div>
+            <div className="flex flex-row mt-8 gap-4">
+              <h4>Next.JS</h4>
+              <div className="bg-gray-200 w-full h-4 rounded-md overflow-hidden mt-[2px] ml-6">
+                <div className="bg-blue-950 h-4 w-[80%]"></div>
+              </div>
+              <h4>80%</h4>
             </div>
             </div>
       </div>
