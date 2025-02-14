@@ -1,29 +1,34 @@
+'use client'
+
 import Image from "next/image";
-import { FaEnvelope, FaGithub,  FaPhone } from "react-icons/fa";
+import { FaEnvelope, FaGithub, FaPhone } from "react-icons/fa";
+
 
 
 
 export default function Home() {
+
+ 
  
   return (
-    <div className="bg-white">
-    <form className="px-[20%] py-12">
+    <div id="resume" className="main bg-white h-full">
+    <form className="px-2 md:px-[20%] py-12">
       <div>
         <div className="w-[180px] h-[180px] bg-blue-950 border rounded-md">
         </div>
       </div>
       <div className="flex">
-        <div className="w-[200px] h-[200px] border-[4.5px] border-white rounded-full relative bottom-[95px] left-10">
+        <div className="w-[250px] sm:w-[200px] md:w-[275px] lg:w-[200px] h-[200px] border-[4.5px] border-white  rounded-full relative bottom-[95px] left-10">
         <div className="w-[200px] h-[200px] border-[5px] border-blue-950 rounded-full overflow-hidden absolute -left-[0.5px] top-[1px]">
-        <Image src="/img1.png" alt="img" width={200} height={200} className="object-cover"/>
+        <Image src="/my_img.jpg" alt="img" width={200} height={200} className="object-cover"/>
         </div>
         </div>
-        <div className="relative bottom-20 left-[40px]">
-          <h1 className="text-blue-950 uppercase text-5xl font-bold">Misbah <span className="relative top-14 right-40"> Shakeel</span></h1>
-          <h3 className="mt-14 ml-28">Web Developer</h3>
+        <div className="relative bottom-[160px] sm:bottom-20 lg:left-[40px] sm:left-[100px] right-10 sm:right-0">
+          <h1 className="w-[100px] sm:w-full text-blue-950 uppercase text-3xl sm:text-5xl font-bold">Misbah <span className="lg:relative top-14 right-40"> Shakeel</span></h1>
+          <h3 className="w-full sm:mt-4 ml-4 lg:mt-14 lg:ml-28">Web Developer</h3>
         </div>
       </div>
-      <div className="flex">
+      <div className="grid grid-cols-1 sm:grid-cols-2">
         {/* left side */}
         <div>
           {/* about */}
@@ -76,11 +81,11 @@ export default function Home() {
         </div>
        
         {/* right side */}
-        <div>
+        <div  className="flex flex-col gap-4 text-blue-950">
           {/* Eperience */}
-          <div className="relative bottom-20 left-20 text-blue-950">
+          <div>
             <div className="flex flex-col w-[300px] h-[40px] bg-blue-950 text-center justify-center">
-              <h2 className="text-white font-bold">EXPERTISE</h2>
+              <h2 className="text-white font-bold">EXPERIENCE</h2>
             </div>
             <div className="ml-10 mt-4">
             <h4 className="font-serif font-bold text-2xl">Web Developer</h4>
@@ -89,9 +94,9 @@ export default function Home() {
               I have 1 year of experience as Front-End-Developer</p>
             </div>
             </div>
-            </div>
+            
         {/* Education */}
-        <div className="relative top-28 right-[230px] text-blue-950">
+        <div>
             <div className="flex flex-col w-[300px] h-[40px] bg-blue-950 text-center justify-center">
               <h2 className="text-white font-bold">EDUCATION</h2>
             </div>
@@ -112,7 +117,7 @@ export default function Home() {
             </div>
             </div>
             {/* Skills */}
-            <div className="relative top-[484px] right-[530px] text-blue-950">
+            <div className="mb-[320px] sm:mb-10">
             <div className="flex flex-col w-[300px] h-[40px] bg-blue-950 text-center justify-center">
               <h2 className="text-white font-bold">Skills</h2>
               </div>
@@ -152,9 +157,13 @@ export default function Home() {
               <h4>80%</h4>
             </div>
             </div>
+            </div>
       </div>
       
     </form>
+   
     </div>
   );
+
 }
+
