@@ -82,18 +82,6 @@ export default function Home() {
        
         {/* right side */}
         <div  className="flex flex-col gap-4 text-blue-950">
-          {/* Eperience */}
-          <div>
-            <div className="flex flex-col w-[300px] h-[40px] bg-blue-950 text-center justify-center">
-              <h2 className="text-white font-bold">EXPERIENCE</h2>
-            </div>
-            <div className="ml-10 mt-4">
-            <h4 className="font-serif font-bold text-2xl">Web Developer</h4>
-            <h4 className="font-semibold">2022-2023</h4>
-            <p className="text-sm w-[280px]">I completed my Web Development From Saylani Mass IT Tranning.
-              I have 1 year of experience as Front-End-Developer</p>
-            </div>
-            </div>
             
         {/* Education */}
         <div>
@@ -105,14 +93,9 @@ export default function Home() {
             <p className="font-semibold">Intermediate From Pre-Medical</p>
             <p className="text-sm">2020-2022</p>
             </div>
-            <div  className="ml-10 mt-4" >
-            <h4 className="font-serif font-bold text-2xl">SMIT</h4>
-            <p className="font-semibold">Web and Mobile App Development</p>
-            <p className="text-sm">2022-2023</p>
-            </div>
             <div className="ml-10 mt-4">
             <h4 className="font-serif font-bold text-2xl">GIAIC</h4>
-            <p className="font-semibold">Web 3.0, Metaverse and GAI</p>
+            <p className="font-semibold">Web 3.0, Metaverse and AI</p>
             <p className="text-sm">2024-2026</p>
             </div>
             </div>
@@ -138,16 +121,16 @@ export default function Home() {
             <div className="flex flex-row mt-8 gap-6">
               <h4>JavaScript</h4>
               <div className="bg-gray-200 w-full h-4 rounded-md overflow-hidden mt-[2px]">
-                <div className="bg-blue-950 h-4 w-[60%]"></div>
+                <div className="bg-blue-950 h-4 w-[80%]"></div>
               </div>
-              <h4>60%</h4>
+              <h4>80%</h4>
             </div>
             <div className="flex flex-row mt-8 gap-4">
               <h4>React</h4>
               <div className="bg-gray-200 w-full h-4 rounded-md overflow-hidden mt-[2px] ml-10">
-                <div className="bg-blue-950 h-4 w-[70%]"></div>
+                <div className="bg-blue-950 h-4 w-[80%]"></div>
               </div>
-              <h4>70%</h4>
+              <h4>80%</h4>
             </div>
             <div className="flex flex-row mt-8 gap-4">
               <h4>Next.JS</h4>
